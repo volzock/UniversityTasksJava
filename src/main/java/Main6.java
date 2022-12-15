@@ -58,7 +58,15 @@ public class Main6 {
     }
 
     public static String translateSentence(String sentence) {
-        return Arrays.stream(sentence.split("\\s|[,!.?]")).map(Main6::translateWord).collect(Collectors.joining(" "));
+        List<String> constants = List.of(",", "!", ".", "?");
+        return Arrays.stream(sentence.split("\\s")).map(word -> {
+            for (String constant : constants) {
+                if (word.endsWith(constant)) {
+                    return translateWord(word.substring(0, word.length() - 1)) + constant;
+                }
+            }
+            return translateWord(word);
+        }).collect(Collectors.joining(" "));
     }
 
     // 3
