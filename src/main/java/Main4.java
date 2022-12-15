@@ -169,57 +169,67 @@ public class Main4 {
 
     public static void main(String[] args) {
         // first task
-//        System.out.println(textProcessor(10, 7, "hello my name is Bessie and this is my essay"));
+        System.out.println(textProcessor(10, 7, "hello my name is Bessie and this is my essay"));
+        System.out.println();
 
         // second task
-//        System.out.println(Arrays.toString(split("()()()")));
-//        System.out.println(Arrays.toString(split("((()))")));
-//        System.out.println(Arrays.toString(split("((()))(())()()(()())")));
-//        System.out.println(Arrays.toString(split("((())())(()(()()))")));
+        System.out.println(Arrays.toString(split("()()()")));
+        System.out.println(Arrays.toString(split("((()))")));
+        System.out.println(Arrays.toString(split("((()))(())()()(()())")));
+        System.out.println(Arrays.toString(split("((())())(()(()()))")));
+        System.out.println();
 
         // thirds task
-//        System.out.println(toCamelCase("hello_edabit"));
-//        System.out.println(toSnakeCase("helloEdabit"));
-//        System.out.println(toCamelCase("is_modal_open"));
-//        System.out.println(toSnakeCase("getColor"));
+        System.out.println(toCamelCase("hello_edabit"));
+        System.out.println(toSnakeCase("helloEdabit"));
+        System.out.println(toCamelCase("is_modal_open"));
+        System.out.println(toSnakeCase("getColor"));
+        System.out.println();
 
         // fourth task
-//        System.out.println(overTime(new double[]{9, 17, 30, 1.5}));
-//        System.out.println(overTime(new double[]{16, 18, 30, 1.8}));
-//        System.out.println(overTime(new double[]{13.25, 15, 30, 1.5}));
+        System.out.println(overTime(new double[]{9, 17, 30, 1.5}));
+        System.out.println(overTime(new double[]{16, 18, 30, 1.8}));
+        System.out.println(overTime(new double[]{13.25, 15, 30, 1.5}));
+        System.out.println();
 
         // fith task
-//        System.out.println(BMI("205 pounds", "73 inches"));
-//        System.out.println(BMI("55 kilos", "1.65 meters"));
-//        System.out.println(BMI("154 pounds", "2 meters"));
+        System.out.println(BMI("205 pounds", "73 inches"));
+        System.out.println(BMI("55 kilos", "1.65 meters"));
+        System.out.println(BMI("154 pounds", "2 meters"));
+        System.out.println();
 
         // sixth task
-//        System.out.println(bugger(39));
-//        System.out.println(bugger(999));
-//        System.out.println(bugger(4));
+        System.out.println(bugger(39));
+        System.out.println(bugger(999));
+        System.out.println(bugger(4));
+        System.out.println();
 
         // seventh task
-//        System.out.println(toStarShorthand("abbccc"));
-//        System.out.println(toStarShorthand("77777geff"));
-//        System.out.println(toStarShorthand("abc"));
-//        System.out.println(toStarShorthand(""));
+        System.out.println(toStarShorthand("abbccc"));
+        System.out.println(toStarShorthand("77777geff"));
+        System.out.println(toStarShorthand("abc"));
+        System.out.println(toStarShorthand(""));
+        System.out.println();
 
         // eight task
-//        System.out.println(doesRhyme("Sam I am!", "Green eggs and ham."));
-//        System.out.println(doesRhyme("Sam I am!", "Green eggs and HAM."));
-//        System.out.println(doesRhyme("You are off to the races", "a splendid day."));
-//        System.out.println(doesRhyme("and frequently do?", "you gotta move."));
+        System.out.println(doesRhyme("Sam I am!", "Green eggs and ham."));
+        System.out.println(doesRhyme("Sam I am!", "Green eggs and HAM."));
+        System.out.println(doesRhyme("You are off to the races", "a splendid day."));
+        System.out.println(doesRhyme("and frequently do?", "you gotta move."));
+        System.out.println();
 
         // nineth task
-//        System.out.println(trouble(451999277L, 41177722899L));
-//        System.out.println(trouble(1222345, 12345));
-//        System.out.println(trouble(666789, 12345667));
-//        System.out.println(trouble(33789, 12345337));
+        System.out.println(trouble(451999277L, 41177722899L));
+        System.out.println(trouble(1222345, 12345));
+        System.out.println(trouble(666789, 12345667));
+        System.out.println(trouble(33789, 12345337));
+        System.out.println();
 
         // tenth task
-//        System.out.println(countUniqueBooks("AZYWABBCATTTA", 'A'));
-//        System.out.println(countUniqueBooks("$AA$BBCATT$C$$B$", '$'));
-//        System.out.println(countUniqueBooks("ZZABCDEF", 'Z'));
+        System.out.println(countUniqueBooks("AZYWABBCATTTA", 'A'));
+        System.out.println(countUniqueBooks("$AA$BBCATT$C$$B$", '$'));
+        System.out.println(countUniqueBooks("ZZABCDEF", 'Z'));
+        System.out.println();
     }
 }
 

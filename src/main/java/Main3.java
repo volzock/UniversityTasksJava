@@ -69,36 +69,34 @@ public class Main3 {
     }
 
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
-            // first task
-//            System.out.println(solutions(1, 0, -1));
+        // first task
+            System.out.println(solutions(1, 0, -1));
 
-            //second task
-//            System.out.println(findZip("all zip files are compressed"));
+        //second task
+            System.out.println(findZip("all zip files are compressed"));
 
-            // third task
-//            System.out.println(checkPerfect(6));
+        // third task
+            System.out.println(checkPerfect(6));
 
-            // fourth task
-//            System.out.println(flipEndChars("Cat, dog, and mouse."));
+        // fourth task
+            System.out.println(flipEndChars("Cat, dog, and mouse."));
 
-            // fifth task
-//            System.out.println(isValidHexCode("#CD5C5Z"));
+        // fifth task
+            System.out.println(isValidHexCode("#CD5C5Z"));
 
-            // six task
-//            System.out.println(same(new int[]{1, 2, 3}, new int[]{1, 2, 3, 3, 3,3 ,3 , 3, 3}));
+        // six task
+            System.out.println(same(new int[]{1, 2, 3}, new int[]{1, 2, 3, 3, 3,3 ,3 , 3, 3}));
 
-            // seventh task
-//            System.out.println(isKaprekar(297));
+        // seventh task
+            System.out.println(isKaprekar(297));
 
-            //eight task
-//            System.out.println(longestZero("100100100"));
+        //eight task
+            System.out.println(longestZero("100100100"));
 
-            // nineth task
-//            System.out.println(nextPrime(11));
+        // nineth task
+            System.out.println(nextPrime(11));
 
-            // tenth task
-//            System.out.println(rightTriangle(70, 130, 110));
-        }
+        // tenth task
+            System.out.println(rightTriangle(70, 130, 110));
     }
 }
