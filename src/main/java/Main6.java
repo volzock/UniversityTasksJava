@@ -2,7 +2,6 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class Main6 {
 
@@ -357,9 +356,15 @@ public class Main6 {
         }
 
         public static boolean execute(String formula) {
-            return Arrays.stream(formula.replaceAll(" ", "").split("="))
-                    .map(FormulaExecutor::compute)
-                    .reduce(.0, (a, b) -> b - a) < 1e-6;
+            assert formula != null && !formula.isEmpty();
+            List<String> expressions = List.of(formula.replaceAll(" ", "").split("="));
+            if (expressions.size() == 0) {
+                return true;
+            }
+            double result = compute(expressions.get(0));
+            return expressions.stream()
+                    .skip(1)
+                    .allMatch(x -> Double.compare(compute(x), result) == 0);
         }
     }
 
